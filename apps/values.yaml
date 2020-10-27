@@ -6,7 +6,7 @@ argocd-config:
   project: toolkit-apps
 
   applicationTargets:
-    - targetRevision: tests
+    - targetRevision: test
       targetNamespace: tk-demo-test
       applications:
         - name: tk-go
