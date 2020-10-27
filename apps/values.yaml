@@ -1,0 +1,12 @@
+global: {}
+
+argocd-config:
+  repoUrl: "https://github.com/toolkit-demo/gitops"
+
+  project: toolkit-apps
+
+  applicationTargets:
+    - targetRevision: tests
+      targetNamespace: tk-demo-test
+      applications:
+        - name: tk-go
