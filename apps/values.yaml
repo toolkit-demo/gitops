@@ -10,3 +10,4 @@ argocd-config:
       targetNamespace: tk-demo-test
       applications:
         - name: tk-go
+        - name: tk-go-2
